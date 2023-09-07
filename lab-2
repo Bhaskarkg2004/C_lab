@@ -1,0 +1,13 @@
+/* C Program to Convert Kilometer to Meter and Centimeter */
+#include <stdio.h>
+int main()
+{
+float centimeter, meter, kilometer; //Variable Declaration
+printf("\n Please Enter the Length in Kilometers (km) : ");
+scanf("%f", &kilometer);
+meter = kilometer * 1000.0; //Converting kilometers to meters
+centimeter = kilometer * 100000.0; //Converting kilometers to centimeters
+printf("\n %.2f Kilometers = %.2f Meters", kilometer, meter);
+printf("\n %.2f Kilometers = %.2f Centimeters", kilometer, centimeter);
+return 0;
+}
