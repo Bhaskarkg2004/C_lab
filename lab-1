@@ -1,0 +1,19 @@
+//program-1
+
+#include <stdio.h>
+int main()
+{
+float m,h,v,p,k,e;//Variable declaration
+printf("Enter Mass of the body\n");
+scanf("%f",&m );
+printf("Enter displacement of the body\n");
+scanf("%f",&h );
+printf("Enter velocity of the body\n");
+scanf("%f",&v );
+p=m*9.8*h; //Calculation of Potential energy, g=9.8
+k=0.5*m*(v*v); // Calculation of Kinetic energy
+e=p+k;//Total energy
+printf("Potential energy of the body = %f\n",p );
+printf("Kinetic energy of the body = %f\n",k );
+printf("Mechanical energy of a body = %f\n" , e);
+}
